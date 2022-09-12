@@ -119,3 +119,20 @@
   .allspan:hover{
     background-color: #f15a14;
   }
+  .m-2{
+    
+      font-weight:bold;
+      display: inline-block;
+      padding-bottom: 15px;
+      position: relative;
+  }
+  .m-2:before{
+      content: "";
+      position: absolute;
+      width: 10%;
+      bottom: 0;
+      left:45%;
+      border-bottom: 2px solid #f15a14;
+  }
+    
+  
